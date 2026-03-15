@@ -1,0 +1,14 @@
+[2026-02-23 20:05:39,577 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2026-02-23 20:05:43,408 ] 16 root - INFO - Initiate the dataingestion
+[2026-02-23 20:05:50,022 ] 63 root - INFO - Performed train test split on the dataframe
+[2026-02-23 20:05:50,023 ] 70 root - INFO - Exporting train and test file path
+[2026-02-23 20:05:50,087 ] 80 root - INFO - Exported train and test file path
+[2026-02-23 20:05:50,088 ] 19 root - INFO - Data initiaion completed
+[2026-02-23 20:05:50,095 ] 23 root - INFO - initiate the data validation
+[2026-02-23 20:05:50,157 ] 37 root - INFO - Required number of columns:2
+[2026-02-23 20:05:50,158 ] 38 root - INFO - Data from ha columns:31
+[2026-02-23 20:05:50,158 ] 37 root - INFO - Required number of columns:2
+[2026-02-23 20:05:50,158 ] 38 root - INFO - Data from ha columns:31
+[2026-02-23 20:05:50,345 ] 66 root - INFO - Entered initiate_data_transformation method
+[2026-02-23 20:05:50,345 ] 69 root - INFO - Starting data transformation
+[2026-02-23 20:05:50,371 ] 47 root - INFO - Entered get_data_transformer_object method

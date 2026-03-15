@@ -1,0 +1,18 @@
+[2026-02-27 03:01:26,434 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2026-02-27 03:01:29,679 ] 17 root - INFO - Initiate the dataingestion
+[2026-02-27 03:01:34,108 ] 63 root - INFO - Performed train test split on the dataframe
+[2026-02-27 03:01:34,109 ] 70 root - INFO - Exporting train and test file path
+[2026-02-27 03:01:34,173 ] 80 root - INFO - Exported train and test file path
+[2026-02-27 03:01:34,174 ] 20 root - INFO - Data initiaion completed
+[2026-02-27 03:01:34,180 ] 24 root - INFO - initiate the data validation
+[2026-02-27 03:01:34,242 ] 37 root - INFO - Required number of columns:2
+[2026-02-27 03:01:34,242 ] 38 root - INFO - Data from ha columns:31
+[2026-02-27 03:01:34,243 ] 37 root - INFO - Required number of columns:2
+[2026-02-27 03:01:34,243 ] 38 root - INFO - Data from ha columns:31
+[2026-02-27 03:01:34,377 ] 51 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2026-02-27 03:01:34,377 ] 53 root - INFO - starting data transformation
+[2026-02-27 03:01:34,402 ] 36 root - INFO - Entered get_data_transformer method of Transfomation class
+[2026-02-27 03:01:34,402 ] 42 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-02-27 03:01:34,418 ] 51 root - INFO - Entered the save_object method of MainUtils class
+[2026-02-27 03:01:34,422 ] 56 root - INFO - exited the save_object method of MainUtils class
+[2026-02-27 03:01:34,423 ] 33 root - INFO - Model Training sstared
