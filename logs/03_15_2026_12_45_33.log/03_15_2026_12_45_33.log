@@ -1,0 +1,33 @@
+[2026-03-15 12:45:34,067 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2026-03-15 12:45:48,563 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[2026-03-15 12:45:49,950 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[2026-03-15 12:45:50,971 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-15 12:45:50,977 ] 107 dagshub - INFO - Accessing as majumdersaikat333
+[2026-03-15 12:45:52,507 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/majumdersaikat333/networksecurity "HTTP/1.1 200 OK"
+[2026-03-15 12:45:53,989 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-03-15 12:45:53,991 ] 107 dagshub - INFO - Initialized MLflow to track repo "majumdersaikat333/networksecurity"
+[2026-03-15 12:45:53,992 ] 107 dagshub - INFO - Repository majumdersaikat333/networksecurity initialized!
+[2026-03-15 12:45:53,992 ] 17 root - INFO - Initiate the dataingestion
+[2026-03-15 12:45:59,094 ] 63 root - INFO - Performed train test split on the dataframe
+[2026-03-15 12:45:59,095 ] 70 root - INFO - Exporting train and test file path
+[2026-03-15 12:45:59,167 ] 80 root - INFO - Exported train and test file path
+[2026-03-15 12:45:59,168 ] 20 root - INFO - Data initiaion completed
+[2026-03-15 12:45:59,175 ] 24 root - INFO - initiate the data validation
+[2026-03-15 12:45:59,247 ] 37 root - INFO - Required number of columns:2
+[2026-03-15 12:45:59,247 ] 38 root - INFO - Data from ha columns:31
+[2026-03-15 12:45:59,247 ] 37 root - INFO - Required number of columns:2
+[2026-03-15 12:45:59,247 ] 38 root - INFO - Data from ha columns:31
+[2026-03-15 12:45:59,401 ] 51 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2026-03-15 12:45:59,401 ] 53 root - INFO - starting data transformation
+[2026-03-15 12:45:59,428 ] 36 root - INFO - Entered get_data_transformer method of Transfomation class
+[2026-03-15 12:45:59,428 ] 42 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-03-15 12:45:59,445 ] 51 root - INFO - Entered the save_object method of MainUtils class
+[2026-03-15 12:45:59,450 ] 56 root - INFO - exited the save_object method of MainUtils class
+[2026-03-15 12:45:59,451 ] 33 root - INFO - Model Training sstared
+[2026-03-15 12:48:48,202 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:48:52,385 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=6, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3AECCE10>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:49:00,532 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3AECD810>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:49:17,531 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=4, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3AECD090>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:49:49,544 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=3, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3AECE490>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:50:53,955 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=2, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3AECCA50>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
+[2026-03-15 12:52:53,958 ] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=1, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D3C36C2D0>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /majumdersaikat333/networksecurity.mlflow/api/2.0/mlflow/logged-models/m-41ec792bcdb34330b217061db217ff27
