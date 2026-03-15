@@ -10,6 +10,8 @@ mlflow
 pyaml
 dagshub
 
+fastapi
+uvicorn
 
 
 
